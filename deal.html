@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deals - DealAI</title>
+    <link rel="stylesheet" href="deal.css">
+</head>
+<body>
+    <header>
+        <div class="brand-animation">
+            <div class="brand-emblems">
+                
+                <div class="circle">
+                    <img src="photos/p1.jpg" alt="Brand 1">
+                </div>
+                <div class="circle">
+                    <img src="photos/p2.jpg" alt="Brand 2">
+                </div>
+                <div class="circle">
+                    <img src="photos/p3.webp" alt="Brand 3">
+                </div>
+                <div class="circle">
+                    <img src="photos/p4.avif" alt="Brand 4">
+                </div>
+                <div class="circle">
+                    <img src="photos/p5.png" alt="Brand 5">
+                </div>
+                <div class="circle">
+                    <img src="photos/p6.webp" alt="Brand 6">
+                </div>
+                <div class="circle">
+                    <img src="photos/p7.png" alt="Brand 7">
+                </div>
+                <div class="circle">
+                    <img src="photos/p8.jpg" alt="Brand 8">
+                </div>
+
+                <!-- Duplicating to Reach 32 Circles -->
+                <div class="circle">
+                    <img src="photos/p1.jpg" alt="Brand 1">
+                </div>
+                <div class="circle">
+                    <img src="photos/p2.jpg" alt="Brand 2">
+                </div>
+                <div class="circle">
+                    <img src="photos/p3.webp" alt="Brand 3">
+                </div>
+                <div class="circle">
+                    <img src="photos/p4.avif" alt="Brand 4">
+                </div>
+                <div class="circle">
+                    <img src="photos/p5.png" alt="Brand 5">
+                </div>
+                <div class="circle">
+                    <img src="photos/p6.webp" alt="Brand 6">
+                </div>
+                <div class="circle">
+                    <img src="photos/p7.png" alt="Brand 7">
+                </div>
+                <div class="circle">
+                    <img src="photos/p8.jpg" alt="Brand 8">
+                </div>
+
+                <div class="circle">
+                    <img src="photos/p1.jpg" alt="Brand 1">
+                </div>
+                <div class="circle">
+                    <img src="photos/p2.jpg" alt="Brand 2">
+                </div>
+                <div class="circle">
+                    <img src="photos/p3.webp" alt="Brand 3">
+                </div>
+                <div class="circle">
+                    <img src="photos/p4.avif" alt="Brand 4">
+                </div>
+                <div class="circle">
+                    <img src="photos/p5.png" alt="Brand 5">
+                </div>
+                <div class="circle">
+                    <img src="photos/p6.webp" alt="Brand 6">
+                </div>
+                <div class="circle">
+                    <img src="photos/p7.png" alt="Brand 7">
+                </div>
+                <div class="circle">
+                    <img src="photos/p8.jpg" alt="Brand 8">
+                </div>
+
+                <div class="circle">
+                    <img src="photos/p1.jpg" alt="Brand 1">
+                </div>
+                <div class="circle">
+                    <img src="photos/p2.jpg" alt="Brand 2">
+                </div>
+                <div class="circle">
+                    <img src="photos/p3.webp" alt="Brand 3">
+                </div>
+                <div class="circle">
+                    <img src="photos/p4.avif" alt="Brand 4">
+                </div>
+                <div class="circle">
+                    <img src="photos/p5.png" alt="Brand 5">
+                </div>
+                <div class="circle">
+                    <img src="photos/p6.webp" alt="Brand 6">
+                </div>
+                <div class="circle">
+                    <img src="photos/p7.png" alt="Brand 7">
+                </div>
+                <div class="circle">
+                    <img src="photos/p8.jpg" alt="Brand 8">
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        
+        <section class="location-select">
+            <h2>Find Deals in Your Area</h2>
+            <form id="location-form">
+                <label for="country">Country:</label>
+                <select id="country" name="country" onchange="updateStates()">
+                    <option value="">Select a country</option>
+                    <option value="USA">USA</option>
+                    <option value="India">India</option>
+                    <option value="UK">UK</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Canada">Canada</option>
+                </select>
+
+                <label for="state">State:</label>
+                <select id="state" name="state" onchange="updateDistricts()">
+                    <option value="">Select a state</option>
+                    
+                </select>
+
+                <label for="district">District:</label>
+                <select id="district" name="district">
+                    <option value="">Select a district</option>
+                    
+                </select>
+
+                <button type="submit" id="submit-btn">Submit</button>
+            </form>
+        </section>
+
+        
+        <section class="deals-grid" id="deals-container">
+        
+        </section>
+    </main>
+
+
+    <footer>
+        <a href="home.html" class="home-button">Home</a>
+    </footer>
+
+    <script src="deal.js"></script>
+</body>
+</html>
